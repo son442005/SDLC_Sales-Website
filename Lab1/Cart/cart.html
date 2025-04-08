@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="vi">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cart</title>
+    <link rel="stylesheet" href="cart.css">
+</head>
+
+<body>
+    <div class="cart-container">
+        <h2>Cart</h2>
+        <div id="cart-items">
+            <!-- Product here -->
+        </div>
+
+        <div class="total-price">Total: $<span id="totalPrice">0</span></div>
+        <div class="btn">
+            <button onclick="clearCart()">Clear</button>
+            <button onclick="payAll()">Pay All</button>
+        </div>
+        <a href="../Main/main.php">Back</a>
+    </div>
+
+    <script src="cart.js"></script>
+</body>
+
+</html>
